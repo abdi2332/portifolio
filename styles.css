@@ -1,0 +1,94 @@
+body{
+    background-color: rgb(99, 125, 125);
+}
+#nav-bar{
+   overflow: hidden;
+  background-color:rgb(68, 104, 111);
+  position: fixed;
+    top: 0; 
+    width: 100%
+}
+#nav-bar a{
+    float: right;
+    padding: 14px 16px;
+    text-decoration: none;
+    color: rgb(12, 12, 12);
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: larger;
+    font-weight: bolder;
+}
+.navbar a:hover {
+    background: #ddd;
+    color: black;
+  }
+  #about{
+    padding-top: 70px;
+    text-align: center;
+    display: block;
+    height: 600px;
+    font-size: xx-large;
+  }
+  #work{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    font-size: xx-large;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+ h1{
+    text-align: center;
+  }
+  .project{
+    margin-bottom: 5px;
+    margin-top: 5px;
+   margin-left: 5px;
+   margin-bottom: 20px;
+  
+  }
+  button {
+    background-color: rgb(247, 176, 44); 
+    margin: auto;
+    border: none;
+    color: black;
+    font-weight: bold;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+  }
+  button:hover{
+    background-color:rgb(219, 121, 60);
+  }
+  #contact{
+    margin-top: 70px;
+    text-align: center;
+    font-size: xx-large;
+  }
+  #contact a{
+    color: rgb(1, 27, 27);
+    text-decoration: none;
+    font-size: larger;
+  }
+  main{
+    margin-bottom: 60px;
+  }
+  hr{
+    border-top: 2px solid rgb(2, 2, 41);
+  }
+  footer p{
+    font-size: large;
+    display: inline;
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+  footer a{
+    display: inline;
+    float: right;
+    text-decoration: none;
+    color: black;
+    margin: auto;
+  }
+ 
